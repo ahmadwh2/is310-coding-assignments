@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IS 310 website design</title>
+    <style>
+    h1{color:black;}
+    p{color:blueviolet;}
+    .highlight { color: red;}
+    </style>
+</head>
+
+<body>
+
+<h1>This is my website</h1>
+
+<P id = "p1" style = "font-size: large;">
+    ChatGPT: 
+    <div style = "background-color: brown;">
+        <h2>This is text from ChatGPT</h2>
+    </div>
+    </P>
+    <p id="p2" class="content">
+    Digital humanities is an interdisciplinary field that combines the methods and techniques of 
+    humanities scholarship with computational tools and technologies to study and analyze cultural artifacts, texts, and historical 
+    data in digital formats. By leveraging digital resources such as databases, text-mining algorithms, visualization tools, and 
+    digital archives, scholars in digital humanities explore questions about human culture, history, language, and society in i
+    nnovative ways. This field encompasses a wide range of disciplines, including history, literature, linguistics, art history, 
+    philosophy, and more, as researchers apply computational approaches to traditional humanistic inquiry. Digital humanities 
+    projects can involve the digitization and analysis of historical documents, the development of digital archives and collections, 
+    the creation of interactive visualizations to explore patterns in data, and the use of computational methods to analyze texts and 
+    cultural trends. Through collaborative and interdisciplinary work, digital humanities scholars seek to gain new insights into the 
+    human experience and advance our understanding of the past and present in the digital age.</P>
+    <style>
+        .content {
+            font-size: 15px;
+            color: #09ca20;
+        }
+    </style>
+    <button id="changeColorBtn">Change Color</button>
+       <script>
+        function changeColorofText() {
+            var paragraph = document.getElementById('p2');
+            paragraph.classList.toggle('content');
+        }
+        document.getElementById('changeColorBtn').addEventListener('click', changeColorofText);
+
+    </script>
+</body>
+</html>
