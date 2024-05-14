@@ -1,0 +1,65 @@
+Documentation/Explanation
+Topic – Understanding socioeconomic inequality through historical census data in the United States from the 1950s to the 2000s
+Description/Data – Basically what I did for this project was I used the U.S. Census database to collect data from both the 1950 and 2000
+census. The data I got from the 1950 census was much more difficult to deal with as it came in the form of scanned pictures of data. 
+To use this data I would have to manually type it in to something else such as excel. The 2000 census data was much easier as it came 
+in the form of datasets but for some of the data I used I still had to manually copy it due to how specific I needed the data to be. 
+I wanted to use the data from these two censuses to compare how inequalities have changed in the United States. I think this was a 
+critical period in U.S. history.  World War 2 had just ended, the 19th had been passed not too long ago, the civil rights movement 
+ended during these times, and people had been recovering from the 1929-1941 great depression. 
+
+Conception – The start of this project was rather easy. It wasn’t too hard to find data I could use but a big issue I had was what data 
+to use. There is so much data in the 1950 census and even more in the 2000 census that I struggled deciding which data would be best 
+for this project. I also did not choose my inequality topics that I would focus on until I had looked through some census data so with 
+all this data it was difficult to decide what subtopics to focus on. When using the 1950 census data I had to copy it into an excel 
+sheet because they only have scanned images of the data. This made it time consuming and difficult to deal with. 
+
+Creating the project – Probably the biggest problem I had to deal with throughout this project was the fact that the data on these 
+censuses were so different. The data collection methods were so far apart from each other that it was hard to use data from each census
+and compare them to each other. For example, the 1950 census would group percentiles of populations by an upper income limit such as 
+500 or 2000. The 2000 census however, would do the opposite. They would group the percentiles first then decide the upper limit that 
+these percentiles have. This made it very difficult to compare data from the two censuses and I would have to resort to some math and 
+problem solving to decide how I was going to deal with it. The coding to create the graphs was also a little complicated. I had a basic 
+knowledge because of this class but I have never before used jupyter notebook and have also never coded in python this way so it took me
+a lot more time than I was happy with to create these graphs. If I had been better at this then I believe I could have used more data 
+and done a better job overall on this project. 
+
+Project results – For my first topic of looking at income inequality changes from 1950-2000, I didn’t see a crazy difference. 
+Especially when dealing up to the 90th percentile as can be seen on the graphs on my jupyter notebook file, the disparities in the 
+income across percentiles did not change much. They were still terrible however, with the top 10 percent making well over 10 times what
+the bottom 10 percent were making. A big issue with this was that I believe that income inequality did change dramatically and made the 
+top few percent much richer than everyone else but it is just difficult to see this with the U.S. census data. And the reason I believe
+that there was an income inequality change is because of the previous research I did about this topic before actually starting this 
+project. Using the census data though, the 2000 census did not show higher than the 95th percentile and they established a lower limit 
+of income instead of a higher limit. This means that I would really have no idea what the average income of the top 5 percent was and
+because I don’t know this it is hard to see this income inequality shift that I believe did happen especially among the top few percent 
+of earners in the U.S. For my second topic I focused on household income inequality across race. There were two issues I had to deal 
+with here, the first being the difference in data collection just like the previous topic and the second being the fact that in 1950 
+the only 2 races on the census for this topic were white and nonwhite. This is because only 99.5% of the population was either white 
+or black so in the 1950 census data, nonwhite is referring almost entirely to black Americans. In this topic I found significant 
+changes with black Americans doing much better in 2000 income wise than in 1950 in comparison to white Americans. Also  in 2000, 
+Asian and Pacific Islander were the highest household income by a significant amount. Hispanics did only slightly better than black 
+Americans. Overall I think these changes show that income inequality across race is not as bad as it used to be but in 2000 it was 
+still an issue and even today is still an issue. 
+
+Reflections – In this class I learned a lot about technology can be used to study humanities. This is not something I had ever 
+really thought about on my own and it was interesting to see that we can really study inequalities so much more efficiently by using 
+data and technology. Understanding these inequalities allows us to make better decisions now and not allow these things to happen again.
+I would say that learning all of these ideas through this class is what led me to choosing this topic. If I had to do this project 
+again or one similar to it there are a lot of things that I would change. First I would try and use more years in my data collection 
+because I think this just leads to a more accurate understanding of this data means. I would also try and use more recent data. I 
+know this may in a way defeat the purpose of studying inequalities across time if I don’t go that far back in time but more recent data 
+is just so much easier to work with. Because of this I could accomplish much more than if I was using older harder to work with data. 
+I didn’t end up doing everything I wanted to, the biggest thing being my third inequality topic. I wanted to see the changed in 
+education inequality across races through census data but I was having a lot of difficult comparing the data from the two censuses and 
+visually representing the comparisons. Overall this was still a great learning experience of a project and it really opened my mind to 
+the digital humanities world. 
+
+
+
+
+Citations
+Bureau, U. C. (2024, May 7). Census.gov. https://www.census.gov/ 
+
+Massey, Douglas & Fischer, Mary. (2003). The Geography of Inequality in the United States, 1950-2000. Brookings-Wharton Papers on Urban Affairs. 2003. 1-40. 10.1353/urb.2003.0012.
+
